@@ -1,6 +1,6 @@
 const resta = require('../operations/resta')
 
-decribe('Restas',()=>{
+describe('Restas',()=>{
     test('4-2=2', ()=>{
         const result= resta(4,2)
         expect(result).toBe(2)
