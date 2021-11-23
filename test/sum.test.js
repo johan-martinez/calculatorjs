@@ -7,6 +7,6 @@ describe('sum',()=>{
     })
     test('null + null',()=>{
         const result=sum(null,null)
-        expect(result).toBe(null)
+        expect(result).toBe(0)
     })
 })
