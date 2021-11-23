@@ -1,0 +1,29 @@
+{
+  "name": "calculatorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johan-martinez/calculatorjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johan-martinez/calculatorjs/issues"
+  },
+  "homepage": "https://github.com/johan-martinez/calculatorjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "jest": {
+    "testEnviroment": "node"
+  }
+}
