@@ -21,9 +21,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Info push
+        run: echo "$GITHUB_ACTOR fue quien hizo push"
       - name: Install dependencies
         run: npm i
       - name: Running tests
         run: npm run test
-      - name: Info push
-        run: echo "$GITHUB_ACTOR fue quien hizo push"
